@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.home_page{
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{
+    background-color: #103260;
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.logo{
+    border: 1px solid black;
+    border-radius: 42px;
+    height: 43px;
+    margin-top: 2px;
+    margin-left: -5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'ubuntu', 'sans-serif';
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+ul li{
+    font-size: 1.5rem;
+    color: white;
+    margin:0px 15px ;
+    
+}
+.nav ul li a:hover {
+    color: #95cfff;
+
+}
+.content{
+    margin-top: 3rem;
+    background-color: none;
+   
+    
+}
+/* 
+.navbar{
+    display: flex; 
+    background-color: rgb(4, 62, 250);
+    height: 57px;
+    width: 100%;
+    position: fixed;
+    margin-top: -31px;
+}
+*/
+.navbar ul{
+    /* overflow: auto; */
+    margin-top: 5px;
+    display: flex;
+}
+.navbar li{
+   float: left;
+   list-style: none; 
+   margin-top: 6px
+} */
+
+/* .navbar li a {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar li a:hover{
+    color: black;
+} */
+
+/* .background{
+    background-color: #043efa;
+    height: 1000vh;
+    width: 204vh;
+} */
+.content{
+    background-color: none;
+
+}
+.thought{
+    /* position: absolute; */
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'ubuntu', 'sans-serif';
+    background-color: none;
+}
+.sec1{
+    display: flex;
+    margin-bottom: 146px ;
+}
+#vg2{
+    height: 232px;
+    border: 2px solid black;
+    margin-left: 106px;
+    border-radius: 15px;
+    margin-top: 58px;
+}
+.big-text{
+    font-size: 37px;
+    padding: -1px;
+    font-family: 'ubuntu', sans-serif;
+}
+.small-text{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.mainc {
+    text-align: right;
+    padding-left: 103px;
+    padding-right: 83px;
+    margin-top: 26px;
+}
+.mainc2 {
+    text-align: right;
+    padding-left: 103px;
+    padding-right: 83px;
+    margin-top: 26px;
+}
+#bg{
+    height: 232px;
+    margin-right: 106px;
+    margin-top: 22px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.sec2ele{
+}
+.sec2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 146px ;
+}
+#vg3{
+    height: 232px;
+    border: 2px solid black;
+    margin-left: 106px;
+    border-radius: 15px;
+    margin-top: 27px;
+}
+@media (min-width: 750px) and (max-width: 800px){
+    
+}
+@media (min-width: 800px) and (max-width: 850px){
+    .mainc {
+        text-align: right;
+        padding-left: 6px;
+        padding-right: 9px;
+        margin-top: 26px;
+    }
+    .mainc2 {
+        text-align: right;
+        padding-left: 0px;
+        padding-right: 8px;
+        margin-top: 26px;
+    }
+    #vg2 {
+        height: 232px;
+        border: 2px solid black;
+        margin-left: 15px;
+        border-radius: 15px;
+        margin-top: 86px;
+    }
+    #bg {
+        height: 232px;
+        margin-right: 18px;
+        margin-top: 22px;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+    #vg3 {
+        height: 232px;
+        border: 2px solid black;
+        margin-left: 17px;
+        border-radius: 15px;
+        margin-top: 78px;
+    }
+}
+@media (min-width: 850px) and (max-width: 900px){
+    .mainc {
+        text-align: right;
+        padding-left: 0px;
+        padding-right: 11px;
+        margin-top: 26px;
+    }
+    .mainc2 {
+        text-align: right;
+        padding-left: 0px;
+        padding-right: 10px;
+        margin-top: 26px;
+    }
+    
+}
+@media (min-width: 850px) and (max-width: 950px){
+    
+}
+
+@media (min-width: 900px) and (max-width: 950px){
+    .mainc {
+        text-align: right;
+        padding-left: 43px;
+        padding-right: 5px;
+        margin-top: 26px;
+    }
+    .mainc2 {
+        text-align: right;
+        padding-left: 0px;
+        padding-right: 18px;
+        margin-top: 26px;
+    }
+}
+@media (min-width: 300px) and (max-width: 950px){
+    .nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        margin-left: 181px;
+    }
+}
+@media (min-width: 950px) and (max-width: 1000px){
+   
+    .sec1ele{
+        margin-top: -14px;
+        margin-left: -45px;
+    }
+}
+@media (min-width: 320px) and (max-width: 375px){
+    
+}
+@media (min-width: 1050px) and (max-width: 1100px){
+   
+}
+@media (min-width: 1100px) and (max-width: 1150px){
+    
+}
+@media (min-width: 1150px) and (max-width: 1200px){
+   
+}
+@media (min-width: 1200px) and (max-width: 1250px){
+    
+}
+@media (min-width:1250px) and (max-width:1300px) {
+    
+}
+
+@media (min-width: 1300px) and (max-width: 1350px){
+   
+}
+@media (min-width: 1350px) and (max-width: 1400px){
+    
+}
+@media (min-width: 1400px) and (max-width: 1450px){
+   
+    
+    .sec1ele{
+        margin-top: -14px;
+        margin-left: -45px;
+    }
+}
+@media (min-width: 1450px) and (max-width: 1500px){
+    
+}
+
